@@ -1,0 +1,56 @@
+@mixin row($x: $left, $y: $top) {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: $y;
+	-ms-align-items: $y;
+	align-items: $y;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: $x;
+	-ms-justify-content: $x;
+	justify-content: $x;
+}
+
+@mixin column($x: $left, $y: $top) {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: $x;
+	-ms-align-items: $x;
+	align-items: $x;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: $y;
+	-ms-justify-content: $y;
+	justify-content: $y;
+}
+
+@mixin rowed($y: $top) {
+	-ms-align-self: $y;
+	-webkit-align-self: $y;
+	align-self: $y;
+}
+
+@mixin columned($x: $left) {
+	-ms-align-self: $x;
+	-webkit-align-self: $x;
+	align-self: $x;
+}
+
+// variables
+
+$center: center;
+$centre: center;
+$top: flex-start;
+$bottom: flex-end;
+$spread: space-between;
+$left: flex-start;
+$middle: center;
+$right: flex-end;

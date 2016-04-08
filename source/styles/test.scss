@@ -1,0 +1,35 @@
+@import "stellar";
+
+section {
+	@include row($center, $center);
+
+	background: lighten(#4F7DDB, 22%);
+	height: 500px;
+	width: 100%;
+	article {
+		background: #4F7DDB;
+		display: block;
+		margin: 20px;
+		height: 50px;
+		width: 50px;
+	}
+	.naughty-child {
+		@include rowed($bottom);
+	}
+}
+
+// media
+
+@media (max-width: 640px) {
+	section {
+		@include column($center, $center);
+		/* 
+		
+		or align the .naughty-child like the rest
+
+		.naughty-child {
+			@include columned($center);
+		}
+		*/
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "stellar-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "gulp-sass": "^2.2.0",
+    "node-sass": "^3.4.2"
+  }
+}
