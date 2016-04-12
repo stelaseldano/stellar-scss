@@ -12,6 +12,10 @@
     "**/.*",
     "source/styles/test.scss",
     "source/test.html",
-    "gulpfile.js"
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }

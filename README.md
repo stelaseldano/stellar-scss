@@ -117,3 +117,16 @@ Use ``@include columned($x: value);`` when the children are arranged in a column
 IE 11 does not position the children elements along y-axis correctly if the parent has ``min-height``. If you need to set ``min-height`` to the parent element, use ``height`` as well.
 
 
+
+## Install
+
+
+``$ bower install stellar-scss``
+
+in your .scss file:
+
+``@import "path/to/stellar/stellar";``
+
+
+
+
