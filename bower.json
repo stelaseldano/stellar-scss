@@ -1,0 +1,17 @@
+{
+  "name": "stellar-scss",
+  "description": "stellar-scss: a sass tool for easy and fast webapp scaffolding",
+  "main": "stellar.scss",
+  "authors": [
+    "stelaseldano <stella.plamenova@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/stelaseldano/stellar-scss",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "source/styles/test.scss",
+    "source/test.html",
+    "gulpfile.js"
+  ]
+}
